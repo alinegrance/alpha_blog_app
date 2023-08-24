@@ -1,7 +1,19 @@
-<h1>About alpha blog:</h1>
-<h2>This is a blog app made with Ruby on Rails</h2>
-
-<p>
-  <%= link_to 'Home', root_path %> |
-  <%= link_to 'Articles', articles_path %>
-</p>
+<div class="container mt-5">
+  <div class="card">
+    <div class="card-header">
+      About
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">About this blog</h5>
+      <p class="card-text">
+        This blog was created for learning purposes. Here I applied all that I have learned of Ruby on Rails 7 and Bootstrap 5 for styling.
+      </p>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><%= link_to 'Home', root_path, class: "green-links" %></li>
+          <li class="breadcrumb-item"><%= link_to 'Articles', articles_path, class: "green-links" %></li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+</div>

@@ -45,6 +45,42 @@ html, body {
   color: #c2eaa4 !important;
 }
 
+.btn-outline-success:hover {
+  background-color: #c2eaa4 !important;
+  color: #4e583c !important;
+}
+
+.btn-outline-info {
+  border-color: #4e583c !important;
+  color: #4e583c  !important;
+}
+
+.btn-outline-info:hover {
+  background-color: #4e583c !important;
+  color:  #c2eaa4 !important;
+}
+
+.bg-info {
+  background-color: #5a6646 !important;
+}
+
+.green-links {
+  color: #4e583c;
+  text-decoration: none;
+}
+
+.green-links:hover {
+  text-decoration: underline !important;
+}
+
 footer {
   background-color: #6e7d54;
+}
+
+.text-muted {
+  text-decoration: none !important;
+}
+
+#my-page-link:hover {
+  text-decoration: underline !important;
 }
